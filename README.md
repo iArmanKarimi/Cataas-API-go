@@ -1,4 +1,4 @@
-# Cataas API go
+# Cataas API
 
 Cat as a service API wrapper for go.
 
