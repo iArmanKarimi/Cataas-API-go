@@ -6,6 +6,12 @@ Cat as a service API wrapper for go.
 
 ## Examples:
 
+Import:
+
+```go 
+import CataasAPI "github.com/iArmann/Cataas-API-go"
+```gi
+
 `Get()`
 
 ```go 
@@ -53,7 +59,8 @@ for i, cat := range cats {
 }
 ```
 
-#### Tips: 
+#### Tips:
+
 + After setting `Gif = true`, `Tag` is ignored
 + Don't forget to `Encode()` | `EncodeById` before `Get()` | ` Download()`
 
