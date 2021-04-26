@@ -33,12 +33,12 @@ func (c *Cataas) Encode() *url.URL {
 	if c.Text != "" {
 		uri.Path = path.Join(uri.Path, "says/"+c.Text)
 		q.Set("size", strconv.Itoa(int(c.TextSize)))
+		if c.TextColor != "" {
+			q.Set("color", c.TextColor)
+		}
 	}
 	if c.Size != "" {
 		q.Set("type", string(c.Size))
-	}
-	if c.TextColor != "" {
-		q.Set("color", c.TextColor)
 	}
 	if c.Filter != "" {
 		q.Set("filter", string(c.Filter))
