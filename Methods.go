@@ -37,8 +37,8 @@ func (c *Cataas) Encode() *url.URL {
 	if c.Size != "" {
 		q.Set("type", string(c.Size))
 	}
-	if c.Color != "" {
-		q.Set("color", c.Color)
+	if c.TextColor != "" {
+		q.Set("color", c.TextColor)
 	}
 	if c.Filter != "" {
 		q.Set("filter", string(c.Filter))
