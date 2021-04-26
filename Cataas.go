@@ -30,15 +30,15 @@ var uri = &url.URL{
 
 // Cataas API wrapper
 type Cataas struct {
-	Gif      bool
-	Tag      string
-	Text     string
-	Color    string
-	Width    uint
-	Height   uint
-	TextSize uint
-	Size     Size
-	Filter   Filter
+	Gif       bool
+	Tag       string
+	Text      string
+	Width     uint
+	Height    uint
+	TextSize  uint
+	TextColor string
+	Size      Size
+	Filter    Filter
 }
 
 type CatByTag struct {
