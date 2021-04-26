@@ -10,7 +10,7 @@ Import:
 
 ```go 
 import CataasAPI "github.com/iArmann/Cataas-API-go"
-```gi
+```
 
 `Get()`
 
